@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  background: $nav-color;
+
+  a {
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $text-color;
+    font-size: 20px;
+    padding: 0 5px;
+    transition: background 0.3s;
+
+    &:hover {
+      background: white;
+      color: black;
+    }
+  }
+}
